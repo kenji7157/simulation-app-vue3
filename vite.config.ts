@@ -10,5 +10,14 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        // NOTE: scssファイルの読み込み
+        // https://www.fixes.pub/program/925087.html
+        additionalData: `@import "@/assets/_variables.scss";`
+      }
+    }
+  },
 })

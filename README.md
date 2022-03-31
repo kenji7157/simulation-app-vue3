@@ -19,3 +19,13 @@ $ npm init vue@latest
 `TypeScript and JavaScript Language Features`をDisable(Workspace)
 
 参考記事：https://zenn.dev/ymgn____/articles/e7709e88948446#take-over-mode%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96
+
+
+## scssの利用
+
+- scoped cssでscssを利用する方法
+  - sassモジュールを追加
+
+```
+npm install -D sass
+```
